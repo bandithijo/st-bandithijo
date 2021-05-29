@@ -1,6 +1,6 @@
 # st-bandithijo
 
-The Simple Terminal with BanditHijo's Personal Preference Patches.
+The Simple Terminal with BanditHijo's Personal Preference Patches (with Binary included).
 
 **st version**: 0.8.4
 
@@ -27,11 +27,33 @@ The Simple Terminal with BanditHijo's Personal Preference Patches.
 0. [xresources-livereload](https://github.com/nimaipatel/st/commit/144c1b2eec9adde37ad8a7b4e46c2725cf8fa41c?branch=144c1b2eec9adde37ad8a7b4e46c2725cf8fa41c&diff=unified)
 0. [xresources](https://st.suckless.org/patches/xresources/)
 
+## Install
+
+This repository have binary file.
+
+Just install it to your system with,
+
+```shell
+$ sudo make install
+```
+
+After installation complete, default st binary location is on **/usr/local/bin/st**.
+
+I prefer using those location because every binary program that I compile by my self should be on user location.
+
 ## Configuration
 
 ### Via config.h
 
 [config.h](config.h)
+
+Afer modifying file config.h, you need to re-make the source code.
+
+```shell
+$ make
+```
+
+And don't forget to re-[install](#install) again.
 
 ### Via Xresources
 
