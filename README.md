@@ -2,6 +2,8 @@
 
 The Simple Terminal with BanditHijo's Personal Preference Patches.
 
+**st version**: 0.8.4
+
 ![st-bangithijo image](https://i.postimg.cc/FsjgdMYN/st-bandithijo.png)
 
 ## Patches Included
