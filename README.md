@@ -6,7 +6,7 @@ The Simple Terminal with BanditHijo's Personal Preference Patches (with Binary i
 
 ![st-bangithijo image](https://i.postimg.cc/FsjgdMYN/st-bandithijo.png)
 
-## Patches Included
+## 📦 Patches Included
 
 0. [appsync](https://st.suckless.org/patches/sync/)
 0. [bold-is-not-bright](https://st.suckless.org/patches/bold-is-not-bright/)
@@ -27,7 +27,7 @@ The Simple Terminal with BanditHijo's Personal Preference Patches (with Binary i
 0. [xresources-livereload](https://github.com/nimaipatel/st/commit/144c1b2eec9adde37ad8a7b4e46c2725cf8fa41c?branch=144c1b2eec9adde37ad8a7b4e46c2725cf8fa41c&diff=unified)
 0. [xresources](https://st.suckless.org/patches/xresources/)
 
-## Install
+## 🏗️ Install
 
 This repository have binary file.
 
@@ -41,7 +41,7 @@ After installation complete, default st binary location is on **/usr/local/bin/s
 
 I prefer using those location because every binary program that I compile by my self should be on user location.
 
-## Configuration
+## 🛠️ Configuration
 
 ### Via config.h
 
@@ -65,16 +65,16 @@ St.cursorcolor: #D4D4D4
 St.borderpx:    3
 ```
 
-## Original Project
+## 👷‍♂️ Original Project
 
 st is a simple terminal emulator (proviced by suckless project) for X which sucks less.
 
 Official website: [st.suckless.org](https://st.suckless.org)
 
-## Credits
+## 🤝 Credits
 
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
-## License
+## 🏛️ License
 
 [LICENSE](LICENSE)
