@@ -45,7 +45,7 @@ I prefer using those location because every binary program that I compile by my 
 
 ### Via config.h
 
-[config.h](config.h)
+[config.h](https://raw.githubusercontent.com/bandithijo/st-bandithijo/master/config.h)
 
 Afer modifying file config.h, you need to re-make the source code.
 
@@ -79,4 +79,4 @@ Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
 ## 🏛️ License
 
-[LICENSE](LICENSE)
+[LICENSE](https://raw.githubusercontent.com/bandithijo/st-bandithijo/master/LICENSE)
