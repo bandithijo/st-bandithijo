@@ -41,7 +41,7 @@ After installation complete, default st binary location is on **/usr/local/bin/s
 
 I prefer using those location because every binary program that I compile by my self should be on user location.
 
-## 🛠️ Configuration
+## 🛠️ Modification/Configuration
 
 ### Via config.h
 
