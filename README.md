@@ -67,6 +67,11 @@ St.borderpx:    3
 
 \* Please, go to [here](https://github.com/bandithijo/JetBrainsMonoNerdFontCompleteBandit-Medium), if you interested with font that I used.
 
+## 🍿 Recomendations
+
+1. Install [**libxft-bgra**](https://aur.archlinux.org/packages/libxft-bgra/)<sup>AUR</sup>, If st crashes when viewing emojis.
+
+
 ## 👷‍♂️ Original Project
 
 st is a simple terminal emulator (proviced by suckless project) for X which sucks less.
