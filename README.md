@@ -4,7 +4,7 @@ The Simple Terminal with BanditHijo's Personal Preference Patches (with Binary i
 
 **st version**: 0.8.4
 
-![st-bangithijo image](https://i.postimg.cc/FsjgdMYN/st-bandithijo.png)
+![st-bangithijo image](https://i.postimg.cc/tg7fD9wQ/st-bandithijo.png)
 
 ## 📦 Patches Included
 
@@ -12,8 +12,8 @@ The Simple Terminal with BanditHijo's Personal Preference Patches (with Binary i
 0. [bold-is-not-bright](https://st.suckless.org/patches/bold-is-not-bright/)
 0. [border-resize](https://t.me/sucklesscode/9005)
 0. [boxdraw](https://st.suckless.org/patches/boxdraw/)
-0. [clipboard](https://st.suckless.org/patches/clipboard/)
 0. [cursorblink](https://st.suckless.org/patches/blinking_cursor/)
+0. [exteralpipe](https://st.suckless.org/patches/externalpipe/)
 0. [font2](https://st.suckless.org/patches/font2/)
 0. [invert](https://st.suckless.org/patches/invert/)
 0. [ligatures](https://st.suckless.org/patches/ligatures/)
@@ -29,11 +29,17 @@ The Simple Terminal with BanditHijo's Personal Preference Patches (with Binary i
 
 ## 🏗️ Install
 
-This repository have binary file.
+~~This repository have binary file~~.
+
+First, you need to make it with,
+
+```sh
+$ make
+```
 
 Just install it to your system with,
 
-```shell
+```sh
 $ sudo make install
 ```
 
@@ -49,7 +55,7 @@ I prefer using those location because every binary program that I compile by my 
 
 Afer modifying file config.h, you need to re-make the source code.
 
-```shell
+```sh
 $ make
 ```
 
@@ -69,10 +75,16 @@ St.borderpx:    3
 
 ## 🍿 Recomendations
 
-1. Install [**libxft-bgra**](https://aur.archlinux.org/packages/libxft-bgra/)<sup>AUR</sup>, If st crashes when viewing emojis.
+0. Install [**libxft-bgra**](https://aur.archlinux.org/packages/libxft-bgra/)<sup>AUR</sup>, If st crashes when viewing emojis.
+0. Define your fallback font for symbol/glyph/emoji on `font2[]`. This repo defines [**ttf-octicons**](https://aur.archlinux.org/packages/ttf-octicons/)<sup>AUR</sup>, [**ttf-joypixels**](https://archlinux.org/packages/community/any/ttf-joypixels/).
+0. For externalpipe patch, I use this script: [**st-urlopener**](https://github.com/thomas154/st-urlopener). Drop [**urlopener**](https://raw.githubusercontent.com/thomas154/st-urlopener/master/urlopener) to your `$PATH`. You can modify from those and make personal adjustments.
+
+## ⌨️ Keyboard Shortcuts
+
+*Under contruction...*
 
 
-## 👷‍♂️ Original Project
+## 👷 Original Project
 
 st is a simple terminal emulator (proviced by suckless project) for X which sucks less.
 
